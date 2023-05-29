@@ -1,0 +1,69 @@
+
+
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+  z-index: 999;
+}
+
+.navbar-transparent {
+  background-color: transparent;
+}
+
+.navbar-white {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed; /* Ensure the navbar stays at the top even when scrolling */
+}
+
+
+
+
+  #content {
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  #nav a {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    color: #212226;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+  #content ul.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #content ul.nav li {
+    list-style: none;
+  }
+  #content ul.nav li a {
+    color: #c5c3c3;
+    font-weight: bold;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  #content ul.nav li a:hover {
+    color: #e83815;
+    transform: scale(1.2);
+    z-index: 1;
+  }
+  

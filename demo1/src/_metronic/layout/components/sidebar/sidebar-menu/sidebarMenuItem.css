@@ -1,0 +1,11 @@
+.menu-item {
+  /* Your existing styles for the menu item */
+
+  /* Add transition property for smooth animation */
+  transition: transform 0.3s ease;
+}
+
+.menu-item.is-hovered {
+  /* Increase the size of the menu item on hover */
+  transform: scale(1.1);
+}
